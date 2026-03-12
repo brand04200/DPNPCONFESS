@@ -29,17 +29,20 @@ confession-bot
 ## Setup Instructions
 
 1. Clone the repository:
+
    ```
    git clone <repository-url>
    cd confession-bot
    ```
 
 2. Create a `.env` file in the root directory and add your Discord bot token:
+
    ```
    TOKEN=your_discord_bot_token
    ```
 
 3. Install the required dependencies:
+
    ```
    pip install -r requirements.txt
    ```
