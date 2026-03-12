@@ -46,8 +46,16 @@ confession-bot
 
 4. Run the bot:
    ```
-   python src/bot.py
+   python -m src.bot
    ```
+
+## Deploy Notes
+
+- This repo includes a `Procfile` for worker platforms.
+- If your platform asks for commands, use:
+  - Build Command: `pip install -r requirements.txt`
+  - Start Command: `python -m src.bot`
+- If the platform auto-detects `main.py`, this repo already provides it.
 
 ## Usage
 
